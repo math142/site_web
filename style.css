@@ -283,10 +283,12 @@ content: "";
     top:275px;
     font-size: 28px;
     font-weight:normal;
+    color:black;
 }
 #secteur p{
     position:absolute;
     top:375px;
+    color:black;
 }
 #secteur button{
     position:absolute;
@@ -317,6 +319,7 @@ content: "";
 }
 .caracteristique-secteur li{
     display:block;
+    color:black;
 }
 .caracteristique-secteur ul > li{
     position:relative;
@@ -337,6 +340,7 @@ content: "";
     text-align: center;
     font: 16px Arial, sans-serif;
 }
+
 #plan{
     top: 3900px;
     left: 300px;
@@ -358,11 +362,13 @@ content: "";
     position: absolute;
     top: 100px;
     left:75px;
+    color:black;
 }
 #plan p{
     position: absolute;
     top: 150px;
     left:75px;
+    color:black;
 }
 .plan-descriptif{
     top: 4000px;
@@ -388,6 +394,7 @@ content: "";
   left: -1em;
   top: 0.9em;
   position: relative;
+ 
     }
 .plan-descriptif h1{
     color:#1E90FF;
@@ -395,6 +402,9 @@ content: "";
     position: absolute;
     top: -70px;
     left:10px;
+}
+.plan-descriptif{
+    color:black;
 }
 .vide{
     background-color:blue;
@@ -616,4 +626,7 @@ a{
     #slide-2{
         position:relative;
         float:left;
+    }
+    .annonce p{
+        color: #fff;
     }
