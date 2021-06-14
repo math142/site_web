@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le baronet</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+    function handleDragStart(e) {
+    this.style.opacity = '0.4';
+  }
+
+  function handleDragEnd(e) {
+    this.style.opacity = '1';
+  }
+
+  let items = document.querySelectorAll('.slider .slide');
+  items.forEach(function(item) {
+    item.addEventListener('dragstart', handleDragStart, false);
+    item.addEventListener('dragend', handleDragEnd, false);
+  });
+    </script>
+    
+</head>
+<body>
+   <div class="menu-coin">
+    <i class="fas fa-band-aid"></i>
+   </div> 
+   <div class="wrapper">
+   <div class="first" style="background-image: url('./image/baronet.jpeg')">
+        <div class="menu">
+            <ul>
+                <li>Acceuil</li>
+                <li><a href='#description'>L'édifice</a></li>
+                <li><a href='#secteur'>Le secteur</a></li>
+                <li><a href='#plan'>Plans</a></li>
+                <li><a href='#nous-joindre'>Nous joindre</a></li>
+                <button><a href='#reserve'>Réserver mon unité</button>    
+            </ul>
+            
+        </div>
+    <div class='annonce'>
+        <p>Des appartements de </p>
+        <p> qualité à</p>
+        <p> Sainte-Marie </p>
+       
+    </div>
+    </div>
+</div>
+<div class="qualite">
+    <h1>La qualité de vie sans<br>compromis!</h1>
+    <h2>Appartements à louer à Sainte-Marie</h2>
+    <h3>64 unités | Livraison de la Phase 1 juillet 2021</h3>
+    <p>Bienvenue aux condos locatifs: un nouvel immeuble locatif situé<br>au coeur de Sainte-Marie, en Beauce, comportant 64 appartements<br> à louer. 
+    Que vous soyez seul, un jeune couple, une famille ou<br> nouvellement retraité, vous serez comblés par la vaste sélection<br>de logements 3 1/2 et 4 1/2
+    situés dans un environnement des plus enchanteurs</p>
+    <p>Si le nom du Baronet vous semble familier, ce n'est pas un hasard.<br>Les appartements empruntent leur nom à l'ancienne usine, bien<br>connue des
+    Beaucerons.Vous l'aurez deviné, le nouvel édificie siège<br>sur la rue Baronet, face à la rivière Chaudière, au milieu du futur<br> centre-ville vert de
+    Sainte-Marie</p>
+    <p>Vous offrir une qualité de vie sans compromis,telle est la promesse<br>du Baronet</p>
+    <strong>3 1/2 / 4 1/2 / certaines unités adaptées aux personnes à mobilités réduites.</strong>
+    <br>
+    <button>Voir les plans</button>
+    <button>Réserver mon unité</button>
+</div>
+<div class="photo-qualite" style="background-image: url('./image/phase.jpeg')">
+</div>
+<div id="reserve">
+    <h1>Réservé votre unité </h1>
+        <h1>dès maintenant<br></h1>
+    <h3>Un édifice moderne et <br>accessible</h3>
+    <h5>64 logements à louer en Beauce</h5>
+
+</div>
+<div id="description">
+    <p>L'édifice du Baronet vous offre 64 logements modernes de qualité<br>supérieure,répartis sur quatre étages. Ses résidents y trouvent<br> assurément
+    et satisfaction, puisqu'il offre six modèles de <br>logements 3 1/2 ou 41/2. De plus,certaines unités sont adaptées aux<br> personnes à mobilité réduite,
+    un atout rare dans la région.<br>
+    </p>
+   <div class="special">
+    <strong>1 disponible dès l'été 2021</strong><br><p>Les appartements seront livrés en 2 phases:<br>la première phase de 64 logements à l'été 2021 et
+    la seconde<br> de 32 logements à l'été 2023. Réservez votre unité dès<br> maintenant!
+    </p>
+   </div>
+</p>
+</div>
+<div class="service">
+    <h3>Des services et des commodités à votre portée</h3>
+<p>Espaces de vie pratiques et réfléchis,inclusions et <br>commodités récherchées,le tout construit 
+    avec<br>des matériaux de qualité:c`est ce que vous offre<br>le Baronet</p>
+    <button>Découvrir le secteur</button>
+    <div class="service-descriptif">
+        <ul>
+            <li>Stationnement intérieur et extérieur disponibles</li>
+            <li>Lockers intérieurs disponibles</li>
+            <li>Piscine extérieure chauffée<br>disponible en Phase 2</li>
+            <li>Ascenseur</li>
+        </ul>
+        <ul>
+            <li>Gym et salle communautaire</li>
+            <li>Climatisation indépendante</li>
+            <li>Insonorisation supérieure</li>
+            <li>Sans oublier, la vue imprenable<br>sur la rivière Chaudière</li>
+        </ul>
+    </div>
+</div>
+
+<div id="secteur">
+    <h1>Découvrez les possibilité </h1>
+    <h1>qui s'offrent à vous</h1>
+    <h3>Un secteur de choix</h3>
+    <h5>Au centre-ville de Sainte-Marie</h5>
+    <p>Situé à l'angle de la rue Notre-Dame Sud et Baronet, l'édifice offre à <br> ses résidents un emplacement de choix. Le Baronet est au centre de la <br>
+        belle ville de Sainte-Marie,près des services et commerces, au grand <br> bohneur de ses locataires. Vous y êtes dans un environnement paisible<br> 
+        empreint de quiétude et tranquilité. D'un côté, les résidents ont droit<br> à une magnifique sur la rivière Chaudière. De l'autre, l'édifice est<br> 
+        bordé par une piste cyclable et par des arbres matures.<br>
+        <br>
+        S'établir au Baronet, c'est vivre au coeur de Sainte-Marie, dans un <br>environnement des plus enchanteurs, tout en étant à proximité de<br> l'action
+        citadine. Le meilleur des deux mondes!
+    </p>
+    <button>Voir les plans</button>
+</div>
+<div class="caracteristique-secteur">
+    <ul>
+        <li>Un lieu où il fait bon vivre</li>
+        <li>Au futur centre-ville vert de Sainte-Marie<br>aménagé en continuité avec le merveilleux<br>Parc Tascherau</li>
+        <li>Bordé par la piste cyclable et <br>par des abres matures</li>
+        <li>À quelques minutes de nombreux<br>commerces et services</li>
+        <li>À proximité de parcs et écoles primaires</li>
+    </ul>
+</div>
+<div class="slider">
+    <div draggable="true" class="slide" id="slide-1">
+        <img src='./image/carrouselPhoto.jpeg'>
+    </div>
+    <div draggable="true" class="slide" id="slide-2">
+        <img src='./image/carrouselPhoto2.jpeg'>
+    </div>
+    <div class="slide" id="slide-3">
+        <img src='./image/baronet.jpeg'>
+    </div>
+    <div class="slide" id="slide-4">
+        <img src='./image/appartes.jpeg'>
+    </div>
+    <div class="slide" id="slide-5">
+        <img src='./image/photoBloc.jpg'>
+    </div>
+  </div>
+        
+<div id="plan">
+    <h1>Des plans bien pensés</h1>
+    <h3>3 1/2 et 4 1/2 à louer</h3>
+    <p>Confort et qualité, à prix accessible, voilà l'offre du Baronet.<br>Découvrez nos 3 1/2 et 4 1/2 à louer à Sainte-Marie <br><br>
+    Pour voir quel appartement convient le mieux à votre style de vie,<br>consultez le plan ci-dessous. Sélectionnez un étage.</p>
+</div>
+<div class="plan-descriptif">
+    <h1>Des petits plus, pensés pour vous:</h1>
+    <ul>
+        <li>Appartements à aire-ouverte</li>
+        <li>Grande luminosité</li>
+        <li>Beaucoup de rangement</li>
+        <li>Espace bureau</li>
+    </ul>
+    <ul>
+        <li>Douche en céramique et bain<br>autoportant</li>
+        <li>Climatisation indépendante</li>
+    </ul>
+</div>
+<div class="vide"></div>
+<div class="unite" style="background-image:url('./image/carrouselPhoto2.jpeg')"></div>
+<div class="unite-texte">
+    <h1>Les réservations</h1>
+    <h1>sont commencées!</h1>
+    <ul>
+        <li>4</li>
+        <li>3</li>
+        <li>2</li>
+        <li>1</li>
+    </ul>
+    <button>Réservé mon unité</button>
+</div>
+<div class="googleMap">
+    <iframe src="https://www.google.com/maps/place/Distributions+RJB/@46.4340882,-71.0115934,18.25z/data=!4m5!3m4!1s0x0:0xdc135f235f2b6118!8m2!3d46.4347994!4d-71.0119609"
+    width=”600” height=”450” frameborder=”0”  allowfullscreen aria-hidden="false" tabindex="0"></iframe>
+ </div>
+<div id="nous-joindre">
+    <h1>Nous joindre</h1>
+    <h2>Réservez votre unité !</h2>
+    <h3>Des question ?Notre<br>Équipe est là pour vous!</h3>
+    <p style="top: 125px;">265 Avenue St-Honoré # 104<br>Sainte-Marie,Québec G6E 2P3<br></p>
+    <span class="icon phone">1 418 209-6183</span>
+    <p>Heures d'ouverture du bureau de location:<br>en tout temps, sur rendez-vous.<br>Les rencontres virtuelles sont possibles.<br>Appelez-nous pour prendre rendez-vous!</p>
+    <hr></hr>
+    <br>
+   
+</div>
+<div class="formulaire">
+    <form>
+        <p>
+            <label for="nomComplet">Nom Complet</label><br>
+            <input type="text" id="nomComplet" name="nomComplet">
+        </p>
+        <p>
+    <label for="Courriel">Adresse courriel</label>
+    <label for="Numero">Numéro de téléphone</label><br>
+    <input type="text" id="Courriel" name="Courriel">
+
+    
+    <input type="text" id="Numero" name="Numero"><br>
+    </p>
+    <p>
+    <label for="Message">Message</label><br>
+    <input type="text" id="Message" name="Message"><br>
+    </p>
+    <button>Envoyer</button>
+</form>
+</div>
+<div class="footer">
+    <ul>
+        <li>Acceuil</li>
+        <li>L'édifice</li>
+        <li>Le secteur</li>
+        <li>Plans</li>
+        <li>Nous joindre</li>
+    </ul>
+</div>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="./slick.js"></script>
+  
+</body>
+</html>
